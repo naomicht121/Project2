@@ -1,0 +1,33 @@
+    pertama biar ga pusing hapus dulu semua data yang ada di tabel invoice sama orders
+tujuannya biar yang kita simulasiin keliatan jelas ga ketumpuk sama yang udah2
+
+pembeli
+1. dari halaman awal kalau udah punya akun langsung masuk login, kalau belum masuk ke bagian daftar
+2. setelah login, masuk menu shop terus pilih yang mau dibeli habis itu klik button kaca pembesar buat liat detail barang
+3. pilih berapa quantity yang mau dibeli habis itu add to cart
+4. pasti bakal masuk ke halaman cart, kalau mau lanjut belanja pilih update cart, kalau mau langsung beli pilih check out
+5. untuk pembayaran masuk ke menu invoice history->in progres
+6. liat dulu saldo yang dipunya cukup atau engga, kalau misal cukup bisa langsung klik pay tapi kalau kurang harus isi saldo dulu
+cara isi saldo
+	a. masuk menu top up->top up and check
+	b. masukin nominal saldo yang mau di isikan (kalau bisa lebih dari yang harus dibayarkan untuk beli barang)
+	c. udah itu liat kebagian bawah halaman ada data topup baru, copy unique key sama nominal
+	d. buka aplikasi yang bank (kalau di saya http://localhost/bank/)
+	e. paste unique key sama nominalnya (untuk nominal jangan ada titik jadi misal topup 1.000.000 ketiknya disitu 1000000)
+	f. balik lagi ke halaman web cahaya jaya di buka menu top up->top up and check terus kebagian bawah halaman klik tombol check
+	g. kalau langkah d sama e bener pasti nominal yang kita isiin bakal masuk ke saldo kita
+	h. liat saldo kita buka menu invoice history->in progres disitu ada saldo
+7. kalau saldo sudah mencukupi sesuai yang harus dibayar, klik tombol pay
+8. terus liat barang yang kita beli itu siapa penjualnya, login lah sebagai si penjual tersebut
+
+penjual
+9. setelah login sebagai penjual tersebut buka menu manage my store
+10. buka menu orders in->in progres payment
+11. terus bakal ada tuh barang yang tadi udah kita simulasi buat beli
+12. pilih courier sama isiin nomer resi habis itu klik update (disini shipping status barang berubah jadi on delivery yang sebelumnya on progress)
+13. terus kita login lagi sebagai pembeli yang barusan udah simulasi beli buat ngeganti status jadi allready received
+
+pembeli
+14. udah login sebagai pembeli terus buka menu shopping history->on progress
+15. semisal barangnya udah sampe ke pembeli terus di ubahlah statusnya dengan klik tombol update
+16. status barang tersebut jadi allready received bisa diliat di menu shopping history->history

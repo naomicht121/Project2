@@ -1,0 +1,22 @@
+Dibetulkan
+6. setiap tabel diberi datatables
+
+
+pengembangan(penting)
+1. dibuat fungsi pengembalian dana automatisasi dengan tenggat waktu apabila ada ketidak sesuaian
+2. dibuat pencairan dana dana aplikasi menjadi cash kembali
+3. quantity pada cart harus bisa berubah
+4. tambahkan filter
+5. fitur chat pembeli penjual
+
+pengembangan(fungsional)
+1. desain lebih baik
+2. penambahan hal2 yang dibutuhkan di bagian footer
+3. pagination kan data yang muncul agar tidak terlalu panjang kebawah halaman
+
+
+
+
+
+
+ 
